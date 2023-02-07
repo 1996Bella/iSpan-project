@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+:root {
+    --dark-red: #cf121e;
+    --red: #ff3542;
+    --light-red: #ffe1e1;
+    --dark-green: #005743;
+    --green: #538e7a;
+    --light-green: #92d279;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #d9d9d9;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.header_1,
+.header_2 {
+    position: relative;
+    height: 400px;
+    background: url(./about_us_images/Nantou_tea_garden_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_3 {
+    position: relative;
+    height: 400px;
+    background: url(./about_us_images/tea_check_images/茶葉檢驗報告.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 61%;
+    top: 36%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1.5px 0px 1px #000000;
+}
+
+.chineseLogo {
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 80%;
+    top: 47%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    font-size: 160%;
+    line-height: 27%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 11px;
+    color: #FFFFFF;
+    text-shadow: 1.5px 0px 1px #000000;
+}
+
+.rectangle {
+    position: absolute;
+    width: 11.5%;
+    height: 1.5%;
+    right: 8.5%;
+    top: 58%;
+    background: #FFFFFF;
+    box-shadow: 1.5px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+.brandContent {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-left: 2%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.left_title_word {
+    position: relative;
+    background-color: #92D279;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    writing-mode: vertical-lr;
+    font-size: 30px;
+}
+
+/* .line {
+    width: 110%;
+    border: 2px solid #005743;
+    transform: rotate(-90deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+} */
+
+.brandOriginText {
+    position: relative;
+    display: inline-block;
+    height: 50%;
+    width: 150%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 130%;
+    line-height: 130%;
+    display: flex;
+    color: var(--dark-green);
+    padding-top: 8%;
+}
+
+.t06 {
+    position: relative;
+}
+
+.startContent {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding-left: 2%;
+    padding-top: 5%;
+
+}
+
+.brandStartText {
+    position: relative;
+    display: inline-block;
+    height: 30%;
+    width: 120%;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 130%;
+    line-height: 130%;
+    display: flex;
+    padding-top: 8%;
+    color: var(--dark-green);
+}
+
+.t07 {
+    position: relative;
+}
+
+.spiritContent {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 100%;
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+.trust,
+.creat,
+.workhard,
+.thanks {
+    text-align: center;
+    font-weight: bold;
+    color: var(--dark-green);
+    letter-spacing: 1em;
+}
+
+.trustText,
+.creatText,
+.workhardText,
+.thanksText {
+    color: var(--dark-green);
+}
+
+.about_us_button {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.about_us_button :not(:first-child) {
+    margin-left: 20%;
+}
+
+.Button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #005743;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #538E7A;
+    background-color: #ffffff;
+}
+
+.Button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #92D279;
+    box-shadow: 4px 5px 17px -4px #538E7A;
+}
+
+.Button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 87, 67, 90%);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+.Button:hover::before {
+    width: 250%;
+}
+
+.smallButton {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #005743;
+    transition: all 1000ms;
+    font-size: 9px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #92D279;
+    background-color: #ffffff;
+}
+
+.smallButton:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid #92D279;
+    box-shadow: 4px 5px 17px -4px #538E7A;
+}
+
+.smallButton::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 87, 67, 90%);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+.smallButton:hover::before {
+    width: 250%;
+}
+
+.strictContent {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+.persistenceContent {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.persistence {
+    width: 20%;
+    text-align: center;
+}
+
+.persistence img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.persistenceTeaText,
+.persistencePersonText,
+.persistenceDrinkText {
+    padding: 20% 20% 0% 20%;
+}
+
+.teaPicture {
+    background-image: url('/about_us_images/food_images/茶葉.jpg');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.solidPicture {
+    background-image: url('/about_us_images/food_images/固態食材.jfif');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.liquidPicture {
+    background-image: url('/about_us_images/food_images/液態食材.jfif');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.milkPicture {
+    background-image: url('/about_us_images/food_images/乳品及鮮果.jfif');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.pickPicture {
+    background-image: url('/about_us_images/food_images/包材.jfif');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.elsePicture {
+    background-image: url('/about_us_images/food_images/其他.jfif');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.foodText {
+    font-size: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: var(--dark-green);
+    font-weight: bold;
+}
+
+.teaCheckText {
+    font-size: 36px;
+    color: var(--dark-green);
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    letter-spacing: 1em;
+    padding-top: 5%;
+}
+
+.checkText img {
+    width: 350px;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-style: solid;
+}
+
+.drinksPicture {
+    position: ;
+    margin-top: 2%;
+    width: 25%;
+    height: 150%;
+    left: 10%;
+    top: 20%;
+    background: #FFFFFF;
+    border: 5px dashed #FFE1E1;
+    -webkit-animation: 
+}
