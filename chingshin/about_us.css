@@ -13,54 +13,7 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
-    width: 100%;
-}
-
+/* header */
 .header_1,
 .header_2 {
     position: relative;
@@ -123,80 +76,142 @@
     box-shadow: 1.5px 0px 1px rgba(0, 0, 0, 0.25);
 }
 
-.brandContent {
+/* -----品牌起源----- */
+
+/* 品牌起源的內容div */
+.brandOriginContent {
     position: relative;
     display: block;
     width: 100%;
     height: 50%;
-    padding-left: 2%;
+    padding-left: -20%;
     padding-top: 5%;
-    padding-left: 5%;
 }
 
-.left_title_word {
-    position: relative;
+/* 品牌起源的標題小字 */
+.left_title_Origin {
+    position: absolute;
+    height: 30%;
+    width: 4%;
     background-color: #92D279;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     writing-mode: vertical-lr;
+    text-align: center;
     font-size: 30px;
+    left: 5%;
 }
 
-/* .line {
-    width: 110%;
-    border: 2px solid #005743;
+/* 品牌起源的茶葉裝飾 */
+img.origin_tea_dec {
+    position: relative;
+    left: 9%;
+    bottom: 46%;
+}
+
+/* 品牌起源的裝飾線 */
+.line_brandOrigin {
+    width: 130%;
+    margin-top: 65%;
+    border: 3px solid var(--light-green);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
     transform: rotate(-90deg);
     flex: none;
     order: 1;
-    flex-grow: 0;
-} */
+    /* flex-grow: 0; */
+}
 
+/* 品牌起源的內文 */
 .brandOriginText {
     position: relative;
     display: inline-block;
     height: 50%;
     width: 150%;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 130%;
+    font-size: 125%;
     line-height: 130%;
     display: flex;
     color: var(--dark-green);
     padding-top: 8%;
+    letter-spacing: 5.5px;
 }
 
+/* 品牌起源的圖片 */
 .t06 {
     position: relative;
 }
 
-.startContent {
+/* -----品牌草創----- */
+
+/* 品牌草創的內容div */
+.brandStartContent {
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: block;
     width: 100%;
     height: 50%;
-    padding-left: 2%;
+    padding-left: -20%;
     padding-top: 5%;
-
 }
 
+/* 品牌草創的標題小字方塊 */
+.left_title_Start_box {
+    position: absolute;
+    height: 35%;
+    width: 4%;
+    background-color: #92D279;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    right: 5%;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 30px;
+    border-left: solid 1px var(--light-green);
+}
+
+/* 品牌草創的茶葉裝飾 */
+img .start_tea_dec {
+    position: relative;
+    left: 15%;
+    bottom: 60%;
+}
+
+/* 品牌草創的裝飾線 */
+/* .line_brandStart {
+    line-height: 130px;
+    width: 130%;
+    margin-right: 30%;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+    transform: rotate(-270deg);
+    flex: none;
+    order: 2;
+    z-index: 2;
+    border: 3px solid var(--light-green);
+} */
+
+/* 品牌草創的內文  */
 .brandStartText {
     position: relative;
     display: inline-block;
-    height: 30%;
-    width: 120%;
+    height: 50%;
+    width: 150%;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 130%;
+    font-size: 125%;
     line-height: 130%;
     display: flex;
-    padding-top: 8%;
     color: var(--dark-green);
+    padding-top: 8%;
+    letter-spacing: 5.5px;
 }
 
+/* 品牌草創的圖片 */
 .t07 {
     position: relative;
 }
 
-.spiritContent {
+/* -----品牌精神----- */
+
+/* 品牌精神的內容div */
+.brandSpiritContent {
     position: relative;
     display: block;
     width: 90%;
@@ -205,6 +220,41 @@
     padding-top: 5%;
 }
 
+/* 品牌精神的標題小字 */
+.left_title_Spirit {
+    position: absolute;
+    height: 30%;
+    width: 4%;
+    background-color: #92D279;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 30px;
+    left: 5%;
+}
+
+/* 品牌精神的茶葉裝飾 */
+img.spirit_tea_dec {
+    position: relative;
+    left: 9%;
+    bottom: 46%;
+}
+
+/* 品牌精神的裝飾線 */
+.line_brandSpirit {
+    width: 140%;
+    margin-top: 69%;
+    margin-right: 20%;
+    border: 2px solid var(--light-green);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    transform: rotate(-90deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* 誠信、創新、用心、惜福 */
 .trust,
 .creat,
 .workhard,
@@ -215,12 +265,66 @@
     letter-spacing: 1em;
 }
 
+/* 誠信、創新、用心、惜福的內文 */
 .trustText,
 .creatText,
 .workhardText,
 .thanksText {
     color: var(--dark-green);
 }
+
+/* -----品牌堅持----- */
+
+/* 品牌堅持的標題小字 */
+.left_title_persistence {
+    position: absolute;
+    height: 30%;
+    width: 3.5%;
+    background-color: #92D279;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 30px;
+    left: 5%;
+}
+
+/* 品牌堅持的裝飾線 */
+.line_brandPersistence {
+    width: 110%;
+    border: 2px solid #005743;
+    transform: rotate(-90deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* -----品牌嚴選----- */
+
+/* 品牌嚴選的標題小字 */
+.left_title_Strict {
+    position: absolute;
+    height: 30%;
+    width: 4%;
+    background-color: #92D279;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    writing-mode: vertical-lr;
+    text-align: center;
+    font-size: 30px;
+    left: 5%;
+}
+
+/* 品牌嚴選的裝飾線 */
+.line_brandStrict {
+    width: 110%;
+    border: 2px solid #005743;
+    transform: rotate(-90deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
 
 .about_us_button {
     text-align: center;
@@ -244,7 +348,7 @@
     font-size: 15px;
     position: relative;
     overflow: hidden;
-    outline: 2px solid #538E7A;
+    outline: 2px solid #92D279;
     background-color: #ffffff;
 }
 
@@ -312,7 +416,7 @@
     width: 250%;
 }
 
-.strictContent {
+.brandStrictContent {
     position: relative;
     display: block;
     width: 100%;
@@ -415,22 +519,21 @@
 }
 
 .checkText img {
-    width: 350px;
+    width: 250px;
     height: 400px;
     margin-top: 5%;
     margin-left: 10%;
     margin-bottom: 5%;
     border-style: solid;
+    border-color: var(--green);
 }
 
-.drinksPicture {
-    position: ;
-    margin-top: 2%;
-    width: 25%;
-    height: 150%;
-    left: 10%;
-    top: 20%;
-    background: #FFFFFF;
-    border: 5px dashed #FFE1E1;
-    -webkit-animation: 
+.line_check {
+    padding-left: 25%;
+    width: 100%;
+    border: 2px solid var(--light-green);
+    transform: rotate(-180deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
